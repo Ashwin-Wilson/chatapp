@@ -1,0 +1,150 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #01838a65;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(7, 149, 156, 0.541);
+    padding: 0.5rem 0;
+}
+
+.header a {
+    font-size: 1rem;
+    font-weight: 100;
+
+}
+
+.header .sender-info {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.chat-app {
+    max-width: 300px;
+    width: 100%;
+    height: 100%;
+    background-color: #03cad4;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.chat-container {
+
+    padding: 0.5rem;
+}
+
+.chat-section {
+    flex-grow: 1;
+    padding: 0.5rem 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+}
+
+.single-chat {
+    display: flex;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 5px;
+
+    /* align-items: center; */
+}
+
+.single-chat .message-info {
+    margin-left: 5px;
+    background-color: rgba(7, 149, 156, 0.363);
+    padding: 0.2rem;
+    border-radius: 5px;
+    flex-grow: 1;
+}
+
+.my-chat {
+    display: flex;
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    margin: 0px 0px 0px auto;
+}
+
+.my-chat .message-info {
+    margin-left: 5px;
+    background-color: rgba(7, 149, 156, 0.363);
+    padding: 0.2rem;
+    border-radius: 5px;
+    flex-grow: 1;
+    /* width: 100%; */
+    height: fit-content;
+}
+
+
+.message-info h6 {
+    color: #ffffff;
+    font-weight: 700;
+
+}
+
+.message-info p {
+    color: #ffffff;
+    font-size: small;
+    font-weight: 200;
+}
+
+.message-info small {
+    color: #ffffffc0;
+    font-size: 10px;
+    font-weight: 200;
+    margin-top: 10px;
+}
+
+.btn {
+    color: #fff;
+    background-color: rgba(7, 149, 156, 0.863);
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-family: inherit;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.enter-message {
+    padding: 0.5rem;
+}
+
+form {
+
+    display: flex;
+    justify-content: center;
+}
+
+form input {
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    padding: 0.2rem;
+    margin-right: 5px;
+}
